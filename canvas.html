@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="author" content="Alexander Novotny" />
+	<meta name="description" content="Report on HTML 5 canvas element" />
+	<meta charset="UTF-8" />
+	<title>Canvas Element</title>
+
+	<script src="modernizr-1.5.js"></script>
+
+	<link href="t3.css" rel="stylesheet" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="plasma.js"></script>
+	
+</head>
+
+<body>
+	
+	
+	
+	<header class="main">
+
+
+		<h1>HTML 5 <br>Canvas <br>Element</h1>
+
+
+		<nav class="horizontal">
+			<ul>
+               <li><a href="index.html">Web Typography</a></li>
+               <li><a href="pecss.html">Prog. Enhancement</a></li>
+               <li><a href="canvas.html">Canvas Elements</a></li>
+               <li><a href="image.html">Responsive Images</a></li>
+			</ul>
+		</nav>
+
+	</header>
+	
+
+
+	<section id="topic">
+		<div>
+			<h2>Introduction and Definition of Trend</h2>
+		</div>
+		<p>
+			Historically, HTML has been a very static language - as is its name ("markup language"). However, as the years have gone by, a need for more dynamic content arose. At first, this need was filled by other languages embeded into the webpage such as Java and Flash applets. Javascript was developed as a means for web developers to make their websites more dynamic without having to embed other languages into the browser using plugins - the browser itself would interpret the language. It didn't see major adoption, however, until the late 00's, and it still couldn't achieve the level of sophistication that Flash (then the most common web scripting language) or Java could, only being able to use simple interactivity with the user. HTML 5, however, set out to change that with numerous changes to Javascript/HTML integration and the canvas element.<br />
+
+			The canvas element introduced an entirely new form of interaction with the user - in-browser animations, video games, and complex rendering were all now achievable and faster than any of the competitors. Nowadays, Javascript and the canvas element tower above their competitors, as Oracle gets rid of its applet system entirely and the removal of NPAPI makes Flash struggle.
+		</p> 
+
+	</section>	 
+	
+	
+	
+	<section id="links">
+		<div>
+			<h2>Links</h2>
+		</div>
+		<ul>
+			<li><a href="http://www.w3schools.com/html/html5_canvas.asp" style="text-decoration:none">W3 Schools</a></li>
+			<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API" style="text-decoration:none">Mozilla Developer Network</a></li>
+			<li><a href="https://en.wikipedia.org/wiki/Canvas_element" style="text-decoration:none">Wikipedia</a></li>
+		</ul> 
+
+	</section>	  
+
+
+	<section id="tutorial">
+		<div>
+			<h2>Tutorial/Examples</h2>
+		</div>
+		<ul>
+			<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial" style="text-decoration:none">Canvas Tutorial</a></li>
+			<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Manipulating_video_using_canvas" style="text-decoration:none">Manipulating video using &lt;canvas&gt;</a></li>
+			<li><a href="http://andrew-hoyer.com/experiments/cloth/" style="text-decoration:none">Interactable Cloth Simulation</a></li>
+			<li><a href="http://lab.hakim.se/sinuous/01/#" style="text-decoration:none">Sinuous (Video Game)</a></li>
+		</ul> 
+
+	</section>	 
+
+
+
+
+	<section id="support">
+		<div>
+			<h2>Trend Support</h2>
+		</div>
+		<p>
+			All major browsers support the HTML 5 canvas element.
+		</p> 
+
+	</section>	 
+
+
+
+
+	<!--http://www.html5canvastutorials.com/advanced/html5-canvas-plasma-effect/-->
+	<canvas id="plasma"></canvas>
+	<p class="canvasCaption">
+		An example of an in-browser animation using HTML 5 canvas.<br />
+		Click on it to hear some audio.
+	</p>
+
+	<div style="clear: both;"></div>
+
+	
+	<form id="contact" name="contact"
+						action="FormProcessor.html"
+						method="get">
+
+		<h2>Send us your feedback:</h2>
+
+		<label for="subject">Subject:</label>
+		<input name="subject" id="subject" required="required" />
+
+		<label for="email">Return E-mail:</label>
+		<input name="email" id="email" />
+
+		<label for="content">Content:</label>
+		<textarea name="content" id="content"></textarea>
+
+		<input type="submit" />
+	</form>
+
+<footer>
+	<address>
+		Squad 5 - Task 3, 11/2/2016  
+	</address>
+</footer>
+
+</body>
+
+</html>
