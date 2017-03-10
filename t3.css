@@ -1,0 +1,426 @@
+/*
+   Task 3 Style Sheet
+
+   Author: Kieley Smith
+   Date:   10/1/16
+
+   Filename: t3.css
+   Supporting Files: 
+
+*/
+
+/* Styles for the Page Body */
+
+body {
+	background-color: black;
+}
+
+
+header h1 {
+	position: absolute;
+	left: 60px;
+	top: -30px;
+	
+   font-family: 'Impact', Geneva, sans-serif;
+   
+
+   
+   color: white;
+   width: 30%;
+   font-size: 3.5em;
+   letter-spacing: 2px;
+   font-weight: bold;
+ 
+   
+}
+
+/* formating horizontal navigation bar */
+
+header nav.horizontal li {
+    background: black;
+
+    font-size: 1.1em;
+
+    height: 40px;
+    line-height: 40px;
+    width: 210px;
+
+    display: block;
+    float: right;
+    margin-right: 25px;
+
+
+    text-align: center;
+}
+
+/*formatting the horizontal hypertext links */
+
+header nav.horizontal li a {
+    display: block; 
+
+    background: white;
+    color: black;
+	font-family: Tahoma, Geneva, sans-serif;
+	
+	font-weight: bold;
+    
+	-moz-border-radius: 30px 25px;
+	-webkit-border-radius: 30px 25px;
+	border-radius: 30px 25px;
+    text-decoration: none;
+}
+
+
+header nav.horizontal li a:hover {
+	background-color: rgb(135, 206, 250)  ;
+	color: black;
+}
+
+
+
+/**********************************************************************************/
+
+
+
+/* topic text box formatting */
+
+#topic{
+	background-color: rgb(135, 206, 250);
+
+	/*rounded corners*/
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+
+	/*position with regards to right edge of page*/
+	clear: right;
+	float: right;
+	margin-right: 2%;
+	margin-top: 50px;
+	
+	/*width of box in relation to page*/
+	width: 60%;
+}
+
+
+#topic h2 {
+	font-family: 'Impact', Geneva, sans-serif;
+	font-size: 2.5em;
+	font-weight: bold;
+	margin: 10px 0px 5px 0px;
+	text-align: center;
+}
+
+#topic p {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1.5em;
+	margin: 15px  50px 25px;
+	
+	height: 200px;
+	overflow: auto;
+	
+	width: 90%;
+	text-align: left;
+}
+
+/***************************************************************/
+
+/* links text box formatting */
+
+#links{
+	
+	display: inline-block;
+	
+	background-color: rgb(135, 206, 250);
+
+	/*rounded corners*/
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+
+	/*position with regards to right edge of page*/
+	clear: right;
+	float: right;
+	margin-left: 2%;
+	margin-right: 5.5%;
+	margin-top: 60px;
+	margin-bottom: 40px;
+	
+	/*width of box in relation to page*/
+	width: 28%;
+	
+	float: left;
+}
+
+
+#links h2 {
+	font-family: 'Impact', Geneva, sans-serif;
+	font-size: 2.5em;
+	font-weight: bold;
+	margin: 10px 0px 0px 0px;
+	text-align: center;
+}
+
+#links p {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1.2em;
+	margin: 10px  50px 20px;
+	
+	height: 120px;
+	overflow: auto;
+	
+	width: 80%;
+	text-align: center;
+	
+	float: left;
+}
+
+links ul {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1.2em;
+	margin: 10px  50px 20px;
+	
+	height: 120px;
+	overflow: auto;
+	
+	width: 80%;
+	text-align: center;
+	
+	float: left;
+}
+
+/***************************************************************/
+
+/* trend support text box formatting */
+
+#support{
+	
+	display: inline-block;
+	
+	background-color: rgb(135, 206, 250);
+
+	/*rounded corners*/
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+
+	/*position with regards to right edge of page*/
+	clear: right;
+	float: right;
+	margin-left: 3%;
+	margin-right: 2%;
+	margin-top: 60px;
+	margin-bottom: 40px;
+	
+	/*width of box in relation to page*/
+	width: 28%;
+	
+	float: left;
+}
+
+
+#support h2 {
+	font-family: 'Impact', Geneva, sans-serif;
+	font-size: 2.5em;
+	font-weight: bold;
+	margin: 10px 0px 5px 0px;
+	text-align: center;
+}
+
+#support p {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1.2em;
+	margin: 15px  50px 25px;
+	
+	height: 500px;
+	overflow: auto;
+	
+	width: 80%;
+	text-align: left;
+}
+
+
+
+/***************************************************************/
+
+/* tutorial text box formatting */
+
+#tutorial{
+	display: inline-block;
+	
+	background-color: rgb(135, 206, 250);
+
+	/*rounded corners*/
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+
+	/*position with regards to right edge of page*/
+	clear: right;
+	float: right;
+	margin-left: 3%;
+	margin-right: 0%;
+	margin-top: 60px;
+	margin-bottom: 40px;
+	
+	/*width of box in relation to page*/
+	width: 28%;
+	
+	float: left;
+}
+
+
+#tutorial h2 {
+	font-family: 'Impact', Geneva, sans-serif;
+	font-size: 2.5em;
+	font-weight: bold;
+	margin: 10px 0px 5px 0px;
+	text-align: center;
+}
+
+#tutorial p {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1.2em;
+	margin: 15px  50px 25px;
+	
+	height: 500px;
+	overflow: auto;
+	
+	width: 80%;
+	text-align: left;
+}
+
+#tutorial ul {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1.2em;
+	margin: 15px  50px 25px;
+	
+	height: 500px;
+	overflow: auto;
+	
+	width: 80%;
+	text-align: left;
+}
+
+
+/***********************************************/
+
+audio, video, iframe, canvas {
+	
+	position: absolute;
+	top: 735px;
+	left: 45px;
+	
+	background-color: white;
+	display: block;
+
+	text-align: center;
+	width: 27%;
+}
+
+p.canvasCaption {
+	position: absolute;
+	top: 875px;
+	left: 45px;
+
+	text-align: center;
+	width: 27%;
+
+	color: gray;
+	font-size: .7em;
+}
+
+/***************************************************************/
+
+/* Form formatting */
+
+form#contact {
+	background-color: rgb(135, 206, 250);
+	
+	position: absolute;
+	top: 1075px;
+	left: 140px;
+
+	/*rounded corners*/
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+
+	margin: 50px auto;
+	padding: 15px;
+	
+	/*width of box in relation to page*/
+	width: 80%;
+}
+
+form#contact h2 {
+	font-family: 'Impact', Geneva, sans-serif;
+	font-size: 2.5em;
+	font-weight: bold;
+	margin: 10px 0px 0px 0px;
+}
+
+form#contact label {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1.2em;
+	width: 140px;
+
+	float: left;
+	clear: left;
+}
+
+form#contact input {
+	height: 16px;
+	margin-top: 5px;
+	float: left;
+}
+
+form#contact textarea {
+	height: 100px;
+	width: 1000px;
+	float: left;
+	margin: 5px 0 10px 0;
+}
+
+form#contact input[type="submit"] {
+	clear: left;
+	float: none;
+	display: block;
+	margin: auto;
+	height: 33px;
+	width: 200px;
+
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1.1em;
+}
+
+/***************************************************************/
+
+/* Page footer styles */
+
+footer {
+	clear: left;
+	width: 100%;
+}
+
+footer address {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: white;
+	font-size: 90%;
+	font-style: normal;
+	padding-top: 350px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

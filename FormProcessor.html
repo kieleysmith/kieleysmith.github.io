@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Form Processor</title>
+<meta charset="utf-8" />
+<style type="text/css">
+	body { background-color: #eeeeee; }
+	#wrapper { width: 40em;
+				background-color: white;
+				margin: 0  auto;		
+				padding: 10px; 
+				border-left: 1px solid gray;
+				border-right: 1px solid gray;}
+			
+</style>
+</head>
+<body>
+<div id="wrapper">
+		<script type="text/javascript">
+		/* <![CDATA[ */
+		document.write("<h1>Your form has been submitted!</h1><h2>You entered the following data:</h2>");
+		var formData = location.search;
+		formData = formData.substring(1, formData.length);
+		while (formData.indexOf("+") != -1) {
+			formData = formData.replace("+", " ");
+		}
+		formData = unescape(formData);
+		var formArray = formData.split("&");
+		for (var i=0; i < formArray.length; ++i) {
+			document.writeln(formArray[i] + "<br />");
+		}
+		/* ]]> */
+		</script>
+</div>
+</body>
+</html>
+

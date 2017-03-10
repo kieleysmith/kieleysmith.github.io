@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+   <!--
+	  Task 3, Brandon's page
+      Author: Brandon Mathes
+      Date:   11/2/16
+
+      Filename: pecss.html
+      Supporting files:  t3.css, modernizr-1.5.js
+   -->
+
+      <meta charset="UTF-8" />
+      <title>Progressive Enhancement with CSS3</title>
+
+
+	<link href="t3.css" rel="stylesheet" />
+
+	<style>
+			section#support {
+				background-image: url(peimg.jpg);
+				background-size: 80%;
+				background-repeat: no-repeat;
+				background-position: 50% 90%;							
+			}
+			iframe {
+				border-width: 0px;
+				border: none;
+			}
+		</style>
+	</head>
+	
+	<body>
+	
+	
+	
+<header class="main">
+	
+
+	<h1>CSS3 <br>Progressive<br>Enhancement</h1>
+	
+	
+	<nav class="horizontal">
+            <ul>
+               <li><a href="index.html">Web Typography</a></li>
+               <li><a href="pecss.html">Prog. Enhancement</a></li>
+               <li><a href="canvas.html">Canvas Elements</a></li>
+               <li><a href="image.html">Responsive Images</a></li>
+            </ul>
+         </nav>
+		 
+</header>
+	
+
+
+	  <section id="topic">
+			<div>
+				<h2>Introduction and Definition of Trend</h2>
+			</div>
+				<p>
+						Progressive Enhancement is a web design strategy in which a document is designed with the functionality of older software and browsers in mind.  The document is then enhanced through external links such as <i>Cascading Style Sheets</i>. This is a reversal of the <q>graceful degradation</q> mindset in which a document was created incorporating the latest and greatest trends for newer browsers while hopefully maintaining some sort of basic functionality <a href="https://en.wikipedia.org/wiki/Progressive_enhancement" style="text-decoration:none">(1)</a>.  This was shortsighted in practice however, due to the rise of mobile devices.<br /><br />
+						CSS3 aids Progressive Enhancement strategy in that basic functionality is preserved despite differences in browsers. It provides workarounds that cut down on code and the need for java-scripting in certain circumstances <a href="https://perishablepress.com/css3-progressive-enhancement-smart-design/" style="text-decoration:none">(2)</a>, such as text box corner design, multiple background images, and custom fonts. Furthermore, CSS3 provides extensions to increase functionality across various browsers. Even where not fully supported, CSS3 ensures that a page is still responsive at the most basic of levels.
+
+				</p> 
+     	 
+	</section>	 
+	
+	
+	
+	   <section id="links">
+			<div>
+				<h2>Links</h2>
+			</div>
+				<p>
+						
+						<a href="https://perishablepress.com/css3-progressive-enhancement-smart-design/" style="text-decoration:none" target="new">Perishable Press</a><br />
+						<a href="http://www.peachpit.com/articles/article.aspx?p=1750586" style="text-decoration:none" target="new">Peachpit</a><br />
+						<a href="http://blog.teamtreehouse.com/progressive-enhancement-past-present-future" style="text-decoration:none" target="new">Treehouse</a><br />
+						<a href="https://www.w3.org/wiki/Graceful_degradation_versus_progressive_enhancement" style="text-decoration:none" target="new">W3C Schools</a><br />
+						<a href="https://en.wikipedia.org/wiki/Progressive_enhancement" style="text-decoration:none" target="new">Wikipedia</a>
+					
+				</p> 
+     	 
+	  </section>	 
+	  
+	  
+	 <section id="tutorial">
+			<div>
+				<h2>Tutorial/Examples</h2>
+			</div>
+				<p>
+						Progressive Enhancement functionality with CSS3 and browser extensions is perhaps best demonstrated by creating rounded borders around an element. The following code:<br /><br/>
+						<code>nav.horizontal li a {
+										background-color: red;
+										color: white;
+										display: block;
+										text-decoration: none;
+
+										-moz-border-radius: 30px/25px;
+										-webkit-border-radius: 30px/25px;
+										border-radius: 30px/25px;
+									}</code><br /><br />
+						creates rounded corners and takes into consideration various browser software. Where not supported, CSS3 will simply display the element with square corners.					
+				</p> 
+     	 
+	</section>	 
+	  
+	  
+	  
+	  
+	    <section id="support">
+
+			
+			<div>
+				<h2>Trend Support</h2>
+			</div>
+				
+					
+				<p>
+						Although CSS3 is largely supported by a wide range of browsers, individual CSS3 properties are not always fully supported. Properties can be dependent on both browser type and browser software versions.<br /><br />W3C provides a current <a href="http://www.w3schools.com/cssref/css3_browsersupport.asp" target="new">list</a> of cross browser functionality.<br /><br />
+						Naturally, future support will be browser dependent.
+				</p> 
+     	 
+	  </section>	 
+	  
+
+		<video controls="controls">
+			<source src="b-video.mp4" />
+			
+			
+			<object data="b-video.mp4"
+					type="application/x-shockwave-flash"
+					width="280" height="239">
+				<param name="movie" value="b-video.mp4" />
+				<param name="quality" value="high" />
+				<param name="menu" value="false" />
+				
+				You must have the 
+				<a href="http://www.adobe.com/products/shockwaveplayer/">
+					Shockwave Player
+				</a>
+				to play the video clip.
+				
+			</object>
+			
+		</video>
+	
+
+	<form id="contact" name="contact"
+		action="FormProcessor.html"
+		method="get">
+
+		<h2>Send us your feedback:</h2>
+
+		<label for="subject">Subject:</label>
+		<input name="subject" id="subject" required="required" />
+
+		<label for="email">Return E-mail:</label>
+		<input name="email" id="email" />
+
+		<label for="content">Content:</label>
+		<textarea name="content" id="content"></textarea>
+
+		<input type="submit" />
+	</form>		
+				
+		
+			
+	
+
+   
+  
+	  
+	  
+
+         
+ <footer>
+		<address>
+				Squad 5 - Task 3, 11/2/2016  
+		</address>
+</footer>
+      
+</body>
+	
+</html>
